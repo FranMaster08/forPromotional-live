@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Cliente } from './entities/cliente.entity';
+import { Cliente } from './entities/cliente.entity'
 import { CreateClienteDto } from './dto/create-cliente.dto';
 
 @Injectable()
@@ -12,7 +12,9 @@ export class ClienteService {
   ) {}
 
   getAllClientes() {
-    return this.clienteRepository.find();
+    return this.clienteRepository.find({
+      take:10
+    });
   }
 
   getClienteById(id: string) {
