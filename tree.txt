@@ -1,0 +1,31 @@
+.
+├── README.md
+├── nest-cli.json
+├── ormconfig.json
+├── package-lock.json
+├── package.json
+├── src
+│   ├── app.controller.spec.ts
+│   ├── app.controller.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── cliente
+│   │   ├── cliente.controller.spec.ts
+│   │   ├── cliente.controller.ts
+│   │   ├── cliente.module.ts
+│   │   ├── cliente.service.spec.ts
+│   │   ├── cliente.service.ts
+│   │   ├── dto
+│   │   │   ├── create-cliente.dto.ts
+│   │   │   └── update-cliente.dto.ts
+│   │   └── entities
+│   │       └── cliente.entity.ts
+│   └── main.ts
+├── test
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+├── tree.txt
+├── tsconfig.build.json
+└── tsconfig.json
+
+6 directories, 23 files

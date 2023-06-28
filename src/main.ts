@@ -8,10 +8,11 @@ async function bootstrap() {
 
   // Configurar opciones de Swagger
   const options = new DocumentBuilder()
-    .setTitle('Nombre de tu API')
-    .setDescription('Descripción de tu API')
-    .setVersion('1.0')
-    .build();
+  .setTitle('ForPromotional Microservices API')
+  .setDescription('API para la migración de la ERP de ForPromotional a una solución de microservicios de NestJS')
+  .setVersion('1.0')
+  .build();
+
 
   // Generar el documento Swagger
   const document = SwaggerModule.createDocument(app, options);
