@@ -1,0 +1,11 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "forpromotional.homelinux.com",
+  "port": 5432,
+  "username": "postgres",
+  "password": "011203ADMGS",
+  "database": "",
+  "synchronize": false,
+  "entities": ["entities/*.js"]
+}
